@@ -1,7 +1,11 @@
 <template>
   <div>
+    <div >
+
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+     <!--  <a class="navbar-brand" href="#"></a> -->
+      <p class="pt-4" >POWERPLANT</p>
       <button
         class="navbar-toggler"
         type="button"
@@ -14,7 +18,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse pl-11" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item active">
             <a class="nav-link" href="#">
@@ -23,10 +27,16 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Project</a>
+            <a class="nav-link" href="#">PROJECT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MANAGEMENT PROFILE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
           </li>
         </ul>
       </div>
