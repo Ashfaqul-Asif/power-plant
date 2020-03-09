@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="top d-flex">
+    <div class="top d-flex ">
       <div class="pr-3 pl-3">
         <p class="pt-2" style="margin:0">+8801700 000000</p>
         <p>mail@powerplant.com</p>
       </div>
-
        <hr class="hr" >
-      <div class="pl-4">
-        <i class="fa fa-facebook"></i>
-        <p class="pt-2" style="margin:0">+8801700 000000</p>
-        <p>mail@powerplant.com</p>
+      <div class="pl-4 ">
+        <i class="fa fa-facebook pr-4 py-6"></i>
+        <i class="fa fa-twitter pr-4"></i>
+        <i class="fa fa-linkedin-in"></i>
+        <i class="fa fa-instagram"></i>
       </div>
     </div>
     <div class="nav">
@@ -57,11 +57,17 @@
         </div>
       </nav>
     </div>
+ <!--    <ImageSlider/> -->
   </div>
 </template>
 
 <script>
-export default {};
+import ImageSlider from "@/components/ImageSlider"
+export default {
+  components:{
+    ImageSlider
+  }
+};
 </script>
 
 <style scoped>
@@ -75,11 +81,12 @@ export default {};
   color: #7686a0;
 }
 .top {
-  height: 73px;
+  height: 63px;
   background-color: #99becc;
 }
 .nav {
   display: flex;
+  height: 50px !important;
 }
 .hr{
   border: 1px solid  #1a3660;
