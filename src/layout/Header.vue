@@ -1,16 +1,19 @@
 <template>
   <div>
+  
     <div class="top d-flex ">
+        <div style="width:100%"></div>
+
       <div class="pr-3 pl-3">
         <p class="pt-2" style="margin:0">+8801700 000000</p>
         <p>mail@powerplant.com</p>
       </div>
        <hr class="hr" >
-      <div class="pl-4 ">
-        <i class="fa fa-facebook pr-4 py-6"></i>
-        <i class="fa fa-twitter pr-4"></i>
-        <i class="fa fa-linkedin-in"></i>
-        <i class="fa fa-instagram"></i>
+      <div class="pl-4 icons ">
+        <i class="fa fa-lg fa-facebook pr-4 py-6"></i>
+        <i class="fa fa-lg fa-twitter pr-4"></i>
+        <i class="fa fa-lg fa-linkedin-in"></i>
+        <i class="fa  fa-lg fa-instagram "></i>
       </div>
     </div>
     <div class="nav">
@@ -57,7 +60,7 @@
         </div>
       </nav>
     </div>
- <!--    <ImageSlider/> -->
+    <ImageSlider/>
   </div>
 </template>
 
@@ -76,12 +79,12 @@ export default {
   border-bottom-style: solid;
   border-bottom-color: #a7a4a4;
   border-bottom-width: thin;
-  height: 73px;
+  height: 53px;
   width: 100%;
   color: #7686a0;
 }
 .top {
-  height: 63px;
+  height: 60px;
   background-color: #99becc;
 }
 .nav {
@@ -90,7 +93,7 @@ export default {
 }
 .hr{
   border: 1px solid  #1a3660;
-  height: 42px;
+  height: 30px;
 
 }
 .spacer {
@@ -110,4 +113,5 @@ export default {
   height: 80px;
   border-left: 6px solid green;
 }
+
 </style>

@@ -9,7 +9,7 @@
     
    
     <a class="next" @click="next" href="#">&#10095; </a> -->
-    <button class="next" @click="next" ><i class="far fa-arrow-alt-circle-right"></i></button>
+    <button class="next" @click="next" ><i class="far fa-arrow-circle-right"></i></button>
   </div>
 </template>
 
