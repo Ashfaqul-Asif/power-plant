@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Header from '@/layout/Header'
 import Footer from '@/layout/Footer'
+import About from '@/views/About'
+import Management from '@/views/Management'
 Vue.use(VueRouter)
 
 const routes = [
@@ -22,6 +24,14 @@ const routes = [
   {
     path:'/footer',
     component:Footer
+  },
+  {
+    path:'/about',
+    component:About
+  },
+  {
+    path:'/management',
+    component:Management
   }
 ]
 

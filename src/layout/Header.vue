@@ -1,25 +1,23 @@
 <template>
   <div>
-  
-    <div class="top d-flex ">
-        <div style="width:100%"></div>
-
+    <div class="top d-flex">
+      <div style="width:65%"></div>
       <div class="pr-3 pl-3">
         <p class="pt-2" style="margin:0">+8801700 000000</p>
         <p>mail@powerplant.com</p>
       </div>
-       <hr class="hr" >
-      <div class="pl-4 icons ">
-        <i class="fa fa-lg fa-facebook pr-4 py-6"></i>
-        <i class="fa fa-lg fa-twitter pr-4"></i>
-        <i class="fa fa-lg fa-linkedin-in"></i>
-        <i class="fa  fa-lg fa-instagram "></i>
+      <hr class="hr" />
+      <div class="pl-4 icons">
+        <i class="fa fa-2x fa-facebook px-3 py-4"></i>
+        <i class="fa fa-2x fa-twitter px-3"></i>
+        <i class="fa fa-2x fa-linkedin-in px-3"></i>
+        <i class="fa fa-2x fa-instagram px-4"></i>
       </div>
     </div>
     <div class="nav">
       <nav class="navbar navbar-expand-lg navbar-light">
         <!--  <a class="navbar-brand" href="#"></a> -->
-        <h3 class="pt-4 title">POWERPLANT</h3>
+        <h3 class="pt-2 title">POWERPLANT</h3>
         <button
           class="navbar-toggler"
           type="button"
@@ -60,14 +58,16 @@
         </div>
       </nav>
     </div>
-    <ImageSlider/>
+    <div style="height:5vh">
+    </div>
+    <ImageSlider />
   </div>
 </template>
 
 <script>
-import ImageSlider from "@/components/ImageSlider"
+import ImageSlider from "@/components/ImageSlider";
 export default {
-  components:{
+  components: {
     ImageSlider
   }
 };
@@ -91,10 +91,9 @@ export default {
   display: flex;
   height: 50px !important;
 }
-.hr{
-  border: 1px solid  #1a3660;
+.hr {
+  border: 1px solid #1a3660;
   height: 30px;
-
 }
 .spacer {
   width: 200px;
@@ -113,5 +112,4 @@ export default {
   height: 80px;
   border-left: 6px solid green;
 }
-
 </style>
