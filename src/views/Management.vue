@@ -1,8 +1,8 @@
 <template>
   <div>
     <img src="../../public/picture.png" style="height:45vh" />
-    <div class="container">
-      <div style="margin-left: 30vw; width:min-content">
+    <div class="container  "  >
+      <div style="padding-left: 30vw; width:min-content">
         <p class="font-weight-bold">ABOUT US</p>
         <p class="title font-weight-bold">MANAGEMENT</p>
       </div>

@@ -4,6 +4,7 @@
       <div v-for="i in [currentIndex]" :key="i">
         <img :src="currentImg" />
       </div>
+      
     </transition-group>
  <!--    <a class="prev" @click="prev" href="#">&#10094; </a>
     
