@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <img src="../../public/picture.png" style="height:45vh" />
+    <img src="../../public/aboutus.jpg" style="height:45vh" />
     <p class="mt-5 title font-weight-regular" style="padding-left: 28vw">ABOUT US</p>
     <div class="d-flex " style="padding-right:8vw;padding-left: 100px;">
       <div class="spacer"></div>

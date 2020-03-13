@@ -5,7 +5,11 @@ import Header from '@/layout/Header'
 import Footer from '@/layout/Footer'
 import About from '@/views/About'
 import Management from '@/views/Management'
+<<<<<<< HEAD
 import Project from '@/views/Project'
+=======
+import ContactUs from '@/views/ContactUs'
+>>>>>>> 17af27ff9e798a57ef46ba57306f0577531edea0
 Vue.use(VueRouter)
 
 const routes = [
@@ -35,8 +39,13 @@ const routes = [
     component:Management
   },
   {
+<<<<<<< HEAD
     path:'/project',
     component:Project
+=======
+    path:'/contactus',
+    component:ContactUs
+>>>>>>> 17af27ff9e798a57ef46ba57306f0577531edea0
   }
   
 ]
