@@ -21,10 +21,13 @@
       </p>
 
       <div class="pt-6">
-         <h5
-        style="border-bottom: 1px solid #b7b7b7;width: fit-content"
-        class="header pb-1"
-      >OUR PROJECTS</h5>
+         <h5 style="border-bottom: 1px solid #b7b7b7;width: fit-content"
+          class="header pb-1">OUR PROJECTS</h5>
+          <div class="row">
+             <div class="col">
+
+             </div>
+          </div>
       </div>
     </div>
     
