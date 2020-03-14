@@ -2,15 +2,14 @@
   <div>
     <transition-group name="fade" tag="div">
       <div v-for="i in [currentIndex]" :key="i">
-        <img :src="currentImg" />
+        <img class="image" :src="currentImg" />
       </div>
       
     </transition-group>
  <!--    <a class="prev" @click="prev" href="#">&#10094; </a>
-    
-   
     <a class="next" @click="next" href="#">&#10095; </a> -->
-    <button class="next" @click="next" ><i class="far fa-arrow-circle-right"></i></button>
+    <button class="prev pa-5" @click="prev"><i class="fal fa-2x fa-chevron-circle-left"></i></button>
+    <button class="next pa-5" @click="next" ><i class="far fa-2x fa-chevron-circle-right"></i></button>
   </div>
 </template>
 
@@ -67,32 +66,23 @@ export default {
   opacity: 1;
 }
 
-.fade-enter,
-.fade-leave-to {
-  visibility: hidden;
-  width:100%;
-  opacity: 0;
-}
+/*  */
 
 img {
-  height:600px;
-  width:100%
+  height:60vh;
+  width:100% !important;
+  object-fit: cover;
+  object-position: center;
 }
 
 .prev, .next {
-
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 25vh;
   width: auto;
-  padding: 16px;
   color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.7s ease;
-  border-radius: 0 4px 4px 0;
-  text-decoration: none;
-  user-select: none;
+  outline: none !important;
+
 }
 
 .next {
@@ -103,8 +93,8 @@ img {
   left: 0;
 }
 
-.prev:hover, .next:hover {
+/* .prev:hover, .next:hover {
   background-color:gray;
-}
+} */
 
 </style>

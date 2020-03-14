@@ -3,10 +3,10 @@
     <div class="d-flex container">
       <div class="leftContent mt-4">
         <div class="ml-4 icons">
-          <i class="fa fa-mg fa-facebook px-3 py-4"></i>
-          <i class="fa fa-mg fa-twitter px-3"></i>
-          <i class="fa fa-mg fa-linkedin-in px-3"></i>
-          <i class="fa fa-mg fa-instagram px-4"></i>
+          <i class="fa fa-mg fa-facebook pa-auto "></i>
+          <i class="fa fa-mg fa-twitter pa-auto"></i>
+          <i class="fa fa-mg fa-linkedin-in pa-auto"></i>
+          <i class="fa fa-mg fa-instagram pa-auto"></i>
         </div>
         <v-btn class="px-10 button" outlined color="#1a3660">Contact Us</v-btn>
       </div>

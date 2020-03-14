@@ -1,17 +1,18 @@
 <template>
   <div>
     <div class="top d-flex">
-      <div style="width:65%"></div>
-      <div class="pr-3 pl-3">
-        <p class="pt-2" style="margin:0">+8801700 000000</p>
-        <p>mail@powerplant.com</p>
+      <div class="spacer">
+      </div>
+      <div class="pr-6 pl-3 ">
+        <p style="font-size:small" class="pt-2">+8801700 000000 </p>
+        <p style="font-size:small">mail@powerplant.com </p>
       </div>
       <hr class="hr" />
-      <div class="pl-4 icons">
-        <i class="fa fa-2x fa-facebook px-3 py-4"></i>
-        <i class="fa fa-2x fa-twitter px-3"></i>
-        <i class="fa fa-2x fa-linkedin-in px-3"></i>
-        <i class="fa fa-2x fa-instagram px-4"></i>
+      <div class="pl-4 icons mr-12 " >
+        <i class="fa fa-lg fa-facebook px-3 py-4"></i>
+        <i class="fa fa-lg fa-twitter px-3"></i>
+        <i class="fa fa-lg fa-linkedin-in px-3"></i>
+        <i class="fa fa-lg fa-instagram px-4"></i>
       </div>
     </div>
     <div class="nav">
@@ -58,9 +59,8 @@
         </div>
       </nav>
     </div>
-    <div style="height:5vh">
-    </div>
-    <ImageSlider />
+    
+  
   </div>
 </template>
 
@@ -84,32 +84,39 @@ export default {
   color: #7686a0;
 }
 .top {
-  height: 60px;
+  height: 3rem;
   background-color: #99becc;
+  overflow: hidden;
+  color: #1a3660;
+  
 }
 .nav {
   display: flex;
-  height: 50px !important;
+  height: 3rem !important;
 }
 .hr {
   border: 1px solid #1a3660;
-  height: 30px;
+  height: initial;
+ 
 }
 .spacer {
   width: 200px;
 }
 .title {
   color: #1a3660;
-  font-size: 40pt;
+  font-size: larger;
   font-family: "Playfair Display", serif !important;
-  padding-left: 150px;
+  padding-left: 10%;
 }
-.top {
-  font-size: 14px;
-  color: #1a3660;
-}
+
 .vl {
   height: 80px;
   border-left: 6px solid green;
+}
+navbar-toggler{
+  position: fixed;
+}
+body p{
+   margin-bottom: 0 !important;
 }
 </style>
