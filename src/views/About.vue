@@ -66,6 +66,7 @@ export default {};
   height: 40vh;
   background-color: #ebebeb;
   color: #1a3660;
+  overflow: hidden;
 }
 .title{
   color: #1a3660;

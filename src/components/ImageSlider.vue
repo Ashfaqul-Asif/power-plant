@@ -9,7 +9,7 @@
  <!--    <a class="prev" @click="prev" href="#">&#10094; </a>
     <a class="next" @click="next" href="#">&#10095; </a> -->
     <button class="prev pa-5" @click="prev"><i class="fal fa-2x fa-chevron-circle-left"></i></button>
-    <button class="next pa-5" @click="next" ><i class="far fa-2x fa-chevron-circle-right"></i></button>
+    <button class="next pa-5" @click="next" ><i class="fal fa-2x fa-chevron-circle-right"></i></button>
   </div>
 </template>
 
@@ -69,7 +69,7 @@ export default {
 /*  */
 
 img {
-  height:60vh;
+  height:70vh;
   width:100% !important;
   object-fit: cover;
   object-position: center;
@@ -79,7 +79,7 @@ img {
   cursor: pointer;
   position: absolute;
   top: 25vh;
-  width: auto;
+  
   color: white;
   outline: none !important;
 
