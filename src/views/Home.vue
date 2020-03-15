@@ -1,17 +1,30 @@
 <template>
   <div class="home">
-    <ImageSlider />
-    <div class="pl-8 pt-5 mt-6 row">
-      <div class="col-md-6">
+ <!--    <ImageSlider /> -->
+    <div class="container">
+     <div class=" pt-5 mt-6 row">
+      <div class="col-xs-11 col-md-6 col-lg-">
         <h4>NEWS & HiGHLIGHTS</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem a minima corporis molestias,</p>
+        <div style="overflow: scroll;
+        height: 30%;
+        overflow-x: hidden;
+        overflow-x: auto;">
+          <div v-for="news in News" :key="news.index">
+          <p>{{news.title}}</p>
+          <p style="font-size:1.2vw ;color:#b9b6b6">{{news.date}}</p>
+        </div>
+        </div>
       </div>
-      <div class="col-md-6">
-        
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatem a minima corporis molestias, nihil unde rerum possimus eaque vitae vero enim corrupti delectus porro rem dolore perspiciatis excepturi harum!</p>
+      <div class="col-xs-11 col-md-6">
+        <h5>Powering Nations, Transforming Lives</h5>
+        <p>Contrary to popular belief, Lorem  Ipsum is
+           not simply random text. It has roots in a piece of class</p>
+           <p>Contrary to popular belief, Lorem  Ipsum is
+           not simply random text. It has roots in a piece of class</p>
       </div>
     </div>
-    <div class="col col-md-6"></div>
+    </div>
+   
   </div>
 </template>
 
@@ -25,6 +38,47 @@ export default {
   components: {
     HelloWorld,
     ImageSlider
-  }
+  },
+  data() {
+    return {
+      News:[
+        {
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'18 december 2019'
+      },
+       {
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'18 december 2020'
+      },
+
+       {
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'10- november 2019'
+      },
+      {
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'10- november 2019'
+      },{
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'10- november 2019'
+      },{
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'10- november 2019'
+      },
+      {
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'10- november 2019'
+      },
+        {
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'10- november 2019'
+      },
+        {
+        title:'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        date:'10- november 2019'
+      }
+      ]
+    }
+  },
 };
 </script>
