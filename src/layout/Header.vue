@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav">
             <li class="nav-item nav-link active">
-              <router-link to="/home">Home</router-link>
+              <router-link to="/">Home</router-link>
             </li>
             <li class="nav-item nav-link active">
               <router-link to="/home">PROJECT</router-link>

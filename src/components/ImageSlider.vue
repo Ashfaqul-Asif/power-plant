@@ -1,21 +1,23 @@
 <template>
-  <div>
+  <div style="height:75vh">
     <transition-group name="fade" tag="div">
       <div v-for="i in [currentIndex]" :key="i">
         <img class="image" :src="currentImg" />
       </div>
-      
     </transition-group>
- <!--    <a class="prev" @click="prev" href="#">&#10094; </a>
-    <a class="next" @click="next" href="#">&#10095; </a> -->
-    <button class="prev pa-5" @click="prev"><i class="fal fa-2x fa-chevron-circle-left"></i></button>
-    <button class="next pa-5" @click="next" ><i class="fal fa-2x fa-chevron-circle-right"></i></button>
+    <!--    <a class="prev" @click="prev" href="#">&#10094; </a>
+    <a class="next" @click="next" href="#">&#10095; </a>-->
+    <button class="prev pa-5" @click="prev">
+      <i class="fal fa-2x fa-chevron-circle-left"></i>
+    </button>
+    <button class="next pa-5" @click="next">
+      <i class="fal fa-2x fa-chevron-circle-right"></i>
+    </button>
   </div>
 </template>
 
 <script>
 export default {
-
   data() {
     return {
       images: [
@@ -55,34 +57,33 @@ export default {
 </script>
 
 <style >
-
 .fade-enter-active,
 .fade-leave-active {
   /* transition: all 0.9s ease; */
   overflow: hidden;
   visibility: visible;
   position: absolute;
-  width:100%;
+  width: 100%;
   opacity: 1;
 }
 
 /*  */
 
 img {
-  height:70vh;
-  width:100% !important;
+  height: 75vh;
+  width: 100% !important;
   object-fit: cover;
   object-position: center;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
-  top: 25vh;
-  
+  top: 33vh;
+
   color: white;
   outline: none !important;
-
 }
 
 .next {
@@ -96,5 +97,4 @@ img {
 /* .prev:hover, .next:hover {
   background-color:gray;
 } */
-
 </style>

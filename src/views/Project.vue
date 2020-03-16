@@ -31,13 +31,13 @@
           class="header pb-1"
         >OUR PROJECTS</h4>
         <div class="Grid">
-          <div class="d-flex pt-11" v-for="projectdata in projectData" :key="projectdata.index">
+          <div class=" d-flex pt-11" v-for="projectdata in projectData" :key="projectdata.index">
             <div>
-              <img
+              <img 
                 :src="projectdata.src"
                 class="ml-2 mr-4"
-                style="height:100px; object-fit: cover;width:120px;
-                object-position: center;"
+                style="height:80px; object-fit: cover;
+                object-position: center; width:120px !important"
               />
             </div>
             <div>
@@ -105,7 +105,7 @@ export default {
           fuel: "Natural Gas",
           capacity: "35mw",
           src:
-            "https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.dsebdblog.org%2FImages%2FFuel-and-Power%2FKPCL%2FKhulna%2520power%2520company%2520limited%2520KPCL%2520factory%2520outside.png&imgrefurl=https%3A%2F%2Fwww.dsebdblog.org%2Ffuel-and-power%2Fkhulna-power-company-limited%2Fkhulna-power-company-limited%2F&tbnid=sXOqQSVFptCZpM&vet=12ahUKEwjs85HJw5noAhXBNHIKHZroBDgQMygBegUIARDdAQ..i&docid=lKman-CBtpRZIM&w=732&h=549&q=khulna%20power%20plant&ved=2ahUKEwjs85HJw5noAhXBNHIKHZroBDgQMygBegUIARDdAQ"
+            "https://tbsnews.net/sites/default/files/styles/big_2/public/images/2019/09/10/bogura._power_plant_01.jpg?itok=DAzXvVhg&timestamp=1568112908"
         },
         {
           title: "Khulna Power Plant",
@@ -114,7 +114,7 @@ export default {
           fuel: "Natural Gas",
           capacity: "35mw",
           src:
-            "https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.dsebdblog.org%2FImages%2FFuel-and-Power%2FKPCL%2FKhulna%2520power%2520company%2520limited%2520KPCL%2520factory%2520outside.png&imgrefurl=https%3A%2F%2Fwww.dsebdblog.org%2Ffuel-and-power%2Fkhulna-power-company-limited%2Fkhulna-power-company-limited%2F&tbnid=sXOqQSVFptCZpM&vet=12ahUKEwjs85HJw5noAhXBNHIKHZroBDgQMygBegUIARDdAQ..i&docid=lKman-CBtpRZIM&w=732&h=549&q=khulna%20power%20plant&ved=2ahUKEwjs85HJw5noAhXBNHIKHZroBDgQMygBegUIARDdAQ"
+            "https://tbsnews.net/sites/default/files/styles/big_2/public/images/2019/09/10/bogura._power_plant_01.jpg?itok=DAzXvVhg&timestamp=1568112908"
         },
         {
           title: "Khulna Power Plant",
@@ -123,7 +123,7 @@ export default {
           fuel: "Natural Gas",
           capacity: "35mw",
           src:
-            "https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.dsebdblog.org%2FImages%2FFuel-and-Power%2FKPCL%2FKhulna%2520power%2520company%2520limited%2520KPCL%2520factory%2520outside.png&imgrefurl=https%3A%2F%2Fwww.dsebdblog.org%2Ffuel-and-power%2Fkhulna-power-company-limited%2Fkhulna-power-company-limited%2F&tbnid=sXOqQSVFptCZpM&vet=12ahUKEwjs85HJw5noAhXBNHIKHZroBDgQMygBegUIARDdAQ..i&docid=lKman-CBtpRZIM&w=732&h=549&q=khulna%20power%20plant&ved=2ahUKEwjs85HJw5noAhXBNHIKHZroBDgQMygBegUIARDdAQ"
+            "https://tbsnews.net/sites/default/files/styles/big_2/public/images/2019/09/10/bogura._power_plant_01.jpg?itok=DAzXvVhg&timestamp=1568112908"
         },
         {
           title: "Khulna Power Plant",
@@ -132,7 +132,7 @@ export default {
           fuel: "Natural Gas",
           capacity: "35mw",
           src:
-            "https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.dsebdblog.org%2FImages%2FFuel-and-Power%2FKPCL%2FKhulna%2520power%2520company%2520limited%2520KPCL%2520factory%2520outside.png&imgrefurl=https%3A%2F%2Fwww.dsebdblog.org%2Ffuel-and-power%2Fkhulna-power-company-limited%2Fkhulna-power-company-limited%2F&tbnid=sXOqQSVFptCZpM&vet=12ahUKEwjs85HJw5noAhXBNHIKHZroBDgQMygBegUIARDdAQ..i&docid=lKman-CBtpRZIM&w=732&h=549&q=khulna%20power%20plant&ved=2ahUKEwjs85HJw5noAhXBNHIKHZroBDgQMygBegUIARDdAQ"
+            "https://tbsnews.net/sites/default/files/styles/big_2/public/images/2019/09/10/bogura._power_plant_01.jpg?itok=DAzXvVhg&timestamp=1568112908"
         }
       ]
     };
@@ -143,6 +143,6 @@ export default {
 <style scoped>
 .Grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
 }
 </style>

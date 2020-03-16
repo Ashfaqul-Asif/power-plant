@@ -11,7 +11,7 @@
           <img
             src="https://www.w3schools.com/howto/img_avatar.png"
             alt="Avatar"
-            style="width:200px; height:200px;border-radius:50%"
+            style="width:200px; height:120px;border-radius:50%"
           />
           <div class="pt-3 text-center">
             <p>MICLE JHON</p>
@@ -34,11 +34,11 @@
           <img
             src="https://www.w3schools.com/howto/img_avatar.png"
             alt="Avatar"
-            style="width:200px; height:200px;border-radius:50%"
+            style="width:200px; height:120px;border-radius:50%"
           />
           <div class="pt-3 text-center">
             <p>MICLE JHON</p>
-            <P>Managing Director &CEO</P>
+            <P> CFO </P>
           </div>
         </div>
       </div>
@@ -47,11 +47,11 @@
           <img
             src="https://www.w3schools.com/howto/img_avatar.png"
             alt="Avatar"
-            style="width:200px; height:200px;border-radius:50%"
+            style="width:200px; height:120px;border-radius:50%"
           />
           <div class="pt-3 text-center">
             <p>MICLE JHON</p>
-            <P>Managing Director &CEO</P>
+            <P>C0O</P>
           </div>
         </div>
         <div style="margin-left:100px; margin-top:90px; margin-right:100px">
