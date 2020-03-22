@@ -70,7 +70,9 @@ export default {
 /*  */
 
 img {
-  height: 75vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 65vh;
   width: 100% !important;
   object-fit: cover;
   object-position: center;

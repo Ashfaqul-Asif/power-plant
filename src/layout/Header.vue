@@ -31,23 +31,25 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav">
             <li class="nav-item nav-link active">
               <router-link to="/">Home</router-link>
             </li>
             <li class="nav-item nav-link active">
-              <router-link to="/home">PROJECT</router-link>
+              <router-link to="/about">ABOUT US</router-link>
             </li>
             <li class="nav-item nav-link active">
-              <router-link to="/home">BUSINESS PARTNERS</router-link>
+              <router-link to="/project">PROJECT</router-link>
             </li>
             <li class="nav-item nav-link active">
-              <router-link to="/home">MANAGEMENT PROFILE</router-link>
+              <router-link to="/management">BUSINESS PARTNERS</router-link>
             </li>
             <li class="nav-item nav-link active">
-              <router-link to="/home">CONTACT US</router-link>
+              <router-link to="/management">MANAGEMENT PROFILE</router-link>
+            </li>
+            <li class="nav-item nav-link active">
+              <router-link to="/contactus">CONTACT US</router-link>
             </li>
           </ul>
         </div>

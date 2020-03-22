@@ -6,6 +6,7 @@ import Footer from '@/layout/Footer'
 import About from '@/views/About'
 import Management from '@/views/Management'
 import Project from '@/views/Project'
+import BusinessProfile from "@/views/BusinessProfile"
 
 import ContactUs from '@/views/ContactUs'
 
@@ -16,18 +17,6 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
-  },
-  {
-    path: '/header',
-    name: '',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component:Header
-  },
-  {
-    path:'/footer',
-    component:Footer
   },
   {
     path:'/about',
@@ -44,6 +33,10 @@ const routes = [
   {
     path:'/contactus',
     component:ContactUs
+  },
+  {
+    path:'/Busniprofile',
+    component:BusinessProfile
   }
   
 ]
