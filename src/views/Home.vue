@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <ImageSlider />
-    
+    <!-- dsadsa -->
     <div class="ml-12">
       <div class="pt-5 mt-6 row">
         <div class="col-xs-11 col-md-6">
